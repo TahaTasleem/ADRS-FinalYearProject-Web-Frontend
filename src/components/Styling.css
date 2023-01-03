@@ -1,0 +1,67 @@
+#brand{
+    font-weight: bold;
+    font-size: 20px;
+}
+#link{
+    color:#fff;
+    font-size:16px;
+}
+#link:hover{
+    text-decoration: underline;
+}
+#nav-drop{
+    font-size: large;
+    color: rgb(236, 250, 255);
+}
+#nav-drop:hover{
+    color: #0d84fc;
+    font-weight:500;
+    text-decoration: underline;
+    background-color: #fff;
+}
+#item:hover{
+    color: #fff;
+    background-color: #4da6ff;
+
+}
+#typo{
+    font-family: "Poppins", Sans-serif;
+    inline-size: 50%;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    padding: 1vw;
+}
+#icons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 160px;
+}
+#icon{
+    margin-right: 10px;
+    font-size:40px;
+    cursor: pointer;
+}
+#icon:hover{
+    background-color:  #4da6ff;
+    color:white
+}
+#icon1{
+    margin-left:10px ;
+    font-size:40px;
+    cursor: pointer;
+}
+#icon1:hover{
+    background-color:  rgb(240, 65, 65);
+    color:white
+}
+#contain {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: auto;
+  }
+  #rightside {
+    position: relative;
+    height: 90%;
+    width: 90%;
+  }
