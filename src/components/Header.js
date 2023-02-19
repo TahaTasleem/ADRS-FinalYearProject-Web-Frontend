@@ -17,7 +17,7 @@ const HomeScreen = () => {
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="mr-auto" style={{marginLeft:"2%"}}>
                         <Nav.Link id="link">Features</Nav.Link>
-                        <Nav.Link id="link">Pricing</Nav.Link>
+                        <Nav.Link id="link" href="reports">Reports</Nav.Link>
                         <Nav.Link id="link" href="contactus">Contact Us</Nav.Link>
                     </Nav>
                     <Nav className='mr-5'>

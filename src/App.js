@@ -5,8 +5,10 @@ import RegisterScreen from './screens/RegisterScreen';
 import ProfileScreen from "./screens/ProfileScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ContactusScreen from "./screens/ContactusScreen";
+import ReportScreen from "./screens/ReportScreen";
 
 const App = () => {
+  
   return (
     <Router>
       <main className='py-3' style={{position:"relative",overflowX:"hidden",minHeight:"100vh"}}>
@@ -16,6 +18,7 @@ const App = () => {
             <Route path="/register" element={<RegisterScreen />} />
             <Route path="/profile" element={<ProfileScreen />} />
             <Route path="/contactus" element={<ContactusScreen />} />
+            <Route path="/reports" element = {<ReportScreen/>}/>
           </Routes>
       </main>
     </Router>
