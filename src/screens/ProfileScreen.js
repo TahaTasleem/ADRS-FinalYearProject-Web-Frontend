@@ -3,6 +3,7 @@ import { Form, Button, Row, Col, Container } from "react-bootstrap";
 import Message from "../components/Message";
 import axios from 'axios';
 import Header from '../components/Header';
+import AlertReport from './AlertReport';
 const ProfileScreen = () => {
     const [username, setuserName] = useState("");
     const [organizationname, setorganizationName] = useState("");
@@ -52,6 +53,7 @@ const ProfileScreen = () => {
 
     return (
         <>
+        <AlertReport/>
         <Header/>
         <Container className="my-5">
             <Row className="justify-content-center">

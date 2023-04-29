@@ -5,9 +5,11 @@ import { Row,Col, Container } from 'react-bootstrap';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import EmailIcon from '@mui/icons-material/Email';
 import "../components/Styling.css";
+import AlertReport from './AlertReport';
 const ContactusScreen = () => {
     return (
         <>
+            <AlertReport/>
             <Header />
             <Container className="my-5">
                 <Row className="justify-content-center">

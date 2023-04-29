@@ -9,9 +9,11 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import EmailIcon from '@mui/icons-material/Email';
 import "../components/Styling.css";
 import Image from "react-bootstrap/Image";
+import AlertReport from './AlertReport';
 const HomeScreen = () => {
     return (
         <>
+        <AlertReport/>
             <Header />
             <Box sx={{ bgcolor: '#4da6ff', pt: 8, pb: 6, }} style={{position:"relative"}}>
                 <Container maxWidth="lg" id="contain">
